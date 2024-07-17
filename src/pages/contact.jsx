@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import MapContainer from '../components/utils/mapContainer';
+import MapContainer from '../components/map/mapContainer';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
